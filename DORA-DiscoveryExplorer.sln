@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "DORA-DiscoveryExplorer", "DORA-DiscoveryExplorer\DORA-DiscoveryExplorer.ccproj", "{4F2904C4-4486-45E8-9D6B-89AB3987FA31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectDoraWeb", "WebRole1\ProjectDoraWeb.csproj", "{C3A28517-27CA-4599-BCDF-FD87792ECA11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectDoraWorker", "WorkerRoleWithSBQueue1\ProjectDoraWorker.csproj", "{12E63A6B-F025-4123-8241-579280FA56DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F2904C4-4486-45E8-9D6B-89AB3987FA31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F2904C4-4486-45E8-9D6B-89AB3987FA31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F2904C4-4486-45E8-9D6B-89AB3987FA31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F2904C4-4486-45E8-9D6B-89AB3987FA31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3A28517-27CA-4599-BCDF-FD87792ECA11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3A28517-27CA-4599-BCDF-FD87792ECA11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3A28517-27CA-4599-BCDF-FD87792ECA11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3A28517-27CA-4599-BCDF-FD87792ECA11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12E63A6B-F025-4123-8241-579280FA56DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12E63A6B-F025-4123-8241-579280FA56DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12E63A6B-F025-4123-8241-579280FA56DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12E63A6B-F025-4123-8241-579280FA56DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
